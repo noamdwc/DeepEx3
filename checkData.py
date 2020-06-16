@@ -34,7 +34,7 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print("wrong format")
         print("the program needs two arguments"
-              "first is the path for the pos examples, and the second is for neg examples")
+              "first is the path for the pos.txt examples, and the second is for neg.txt examples")
         exit(1)
     pos_path = sys.argv[1]
     neg_path = sys.argv[2]
